@@ -1,14 +1,38 @@
-# GAM3ARCH Framework
+# 🎮 GAM3ARCH Framework
 
-Framework for analyzing player burnout and behavioral zones in games (Forge, Nexus, Back, Horizon).
+**Framework for analyzing player burnout and behavioral zones in games (Forge, Nexus, Back, Horizon).**
 
-## Files
-- `docs/GAM3ARCH_theory.txt` — short theoretical summary
-- `model/gam3arch_sim.py` — simple simulation
-- `data/survey_results.csv` — anonymized sample data
+---
 
-## Citation
-If you use this framework, please cite: GAM3ARCH project (2025).
+## 🧩 Overview
+
+GAM3ARCH — это простая модель, которая помогает анализировать игровые циклы и выгорание игроков.  
+Основана на наблюдениях, Python-симуляции и реальных данных (n=512, осень–ноябрь 2025).  
+
+Модель выделяет **4 зоны**:
+- **Forge** — активный гринд, прокачка, напряжение  
+- **Nexus** — общение, стримы, дискорд  
+- **Back** — завершение, выход, ритуал  
+- **Horizon** — пауза, восстановление, возвращение  
+
+---
+
+## 📂 Files
+
+| File | Description |
+|------|--------------|
+| `/docs/GAM3ARCH_theory.txt` | краткое описание теоретической модели |
+| `/model/gam3arch_sim.py` | симуляция на Python |
+| `/data/survey_results.csv` | анонимизированные данные опроса |
+
+---
+
+## 🧠 How to use
+
+1. Склонируй репозиторий:
+   ```bash
+   git clone https://github.com/veksler-ship/GAM3ARCH-framework.git
+   cd GAM3ARCH-framework
 
 ---
 © 2025 GAM3ARCH
