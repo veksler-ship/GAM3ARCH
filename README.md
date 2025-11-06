@@ -15,15 +15,17 @@
 
 ```mermaid
 flowchart TD
-    F[Forge — гринд, напряжение] --> N[Nexus — общение, Discord]
-    N --> B[Back — выход, ритуал]
-    B --> H[Horizon — отдых, реальность]
+    F[Forge — grind, tension] --> N[Nexus — chat, community]
+    N --> B[Back — ritual, "bye and thanks"]
+    B --> H[Horizon — rest, reboot]
     H --> F
 
-Forge — рейды, фарм, "ещё один пул"
-Nexus — Discord, стримы, чаты
-Back — ритуал: "бай, спасибо"
-Horizon — сон, жизнь, перезапуск
+```markdown
+**Перевод:**
+- Forge — активная игра, гринд, напряжение  
+- Nexus — общение, Discord, стримы  
+- Back — ритуал выхода, "бай, спасибо"  
+- Horizon — отдых, реальность  
 
 
 Impotence — когда ты в Forge, но кайфа нет.
