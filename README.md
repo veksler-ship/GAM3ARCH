@@ -20,7 +20,6 @@ flowchart TD
     B --> H[Horizon — rest, reboot]
     H --> F
 
-```markdown
 **Перевод:**
 - Forge — активная игра, гринд, напряжение  
 - Nexus — общение, Discord, стримы  
