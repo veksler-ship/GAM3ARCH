@@ -1,30 +1,30 @@
-# GAM3ARCH — Ethical Retention Framework (v3.1, paper reproduction)
+# GAM3ARCH — Ethical Game Cycle Model
 
-This repository contains the code used to reproduce the simulations reported in the GAM3ARCH preprint (Nov 2025).
-The "paper" preset (default constants in gam3arch_v3.py) reproduces the numbers presented in the publication.
+**Burnout ≈ 0.42 in WeakBridges — as in the 2025 preprint**
 
-## Quick start
+## Run
 
-1. Create a virtual environment and install dependencies:
-   ```
-   python -m venv .venv
-   source .venv/bin/activate   # Windows: .venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
+```bash
+git clone https://github.com/veksler-ship/GAM3ARCH.git
+cd GAM3ARCH
+pip install -r requirements.txt
+python run.py
+```
 
-2. Run simulation:
-   ```
-   python gam3arch_v3.py
-   ```
+## Result
+- `results/summary.csv` — burnout, resonance
+- Example: `WeakBridges: 0.423 ± 0.012`
 
-3. Extract bridge matrix from sample telemetry:
-   ```
-   python bridge_extractor.py examples/sample_telemetry.csv
-   ```
+## Data Example
+```csv
+Player_ID,Zone,Session_Time,Stress_Index,Flow_Index
+001,Forge,120,0.4,0.8
+```
 
-4. Run dashboard:
-   ```
-   streamlit run dashboard.py
-   ```
+## Zones
+- **Forge** — growth
+- **Nexus** — connection
+- **Back** — rest
+- **Horizon** — meaning
 
-Results (CSV + PNG) are written to the `results/` directory.
+> “Players aren’t tired of games — they’re tired of being treated like resources.”
